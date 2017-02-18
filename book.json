@@ -1,4 +1,5 @@
 {
+  "plugins": ["anchors"],
   "language": "es",
   "styles": {
     "pdf": "styles/pdf.css"

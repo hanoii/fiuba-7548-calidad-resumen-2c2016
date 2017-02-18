@@ -40,7 +40,7 @@ Vista → Externa → Encuestas clientes
 
 **Mejora continua** → Todo el tiempo buscar el punto de mejorar y hacer ciclos de revisión y mejora continua.
 
-## Capitulo 3 - Trabajo con la organización - Mejora de procesos 
+## Capítulo 3 - Trabajo con la organización - Mejora de procesos 
 
 ### 3.1 Visión del cambio
 
@@ -61,7 +61,7 @@ Vista → Externa → Encuestas clientes
 
 #### Modelo IDEAL
 
-https://d2mxuefqeaa7sj.cloudfront.net/s_3CD42C0A1EA7CD0DA0C0BD1151FAAC71E8734C01BD733190E2EE887B619624F1_1487436300464_Screen+Shot+2017-02-18+at+1.40.54+PM.png
+![Modelo IDEAL](images/ideal.png)
 
 Inicio → Diagnostico → Planificar → Actuar → Aprender
 
@@ -175,3 +175,41 @@ Estructura → Claves → Objetivos → Comportamiento ante cambios → Ejemplo
 - Fundamentar los cambios y mostrar resultados con frecuencia
 
 #### Liderazgo
+
+- Un lider no es aquel que enseña, sino que muestra el camino sin saberlo y motiva
+- Una organización necesita líderes en todas sus áreas
+- Debe formar parte de la cultura la delegación 
+- Debe formar parte de la cultura la asunción de responsabilidades
+
+## Capítulo 4 - Trabajo con requerimientos
+
+### 4.1 Importancia de los requerimientos
+
+#### Rol del analista
+
+Doble intefaz
+
+- **Interfaz de Negocio**  → técnicas de relevamiento, UML (actividad, estado y secuencia) y documentación de proceso de negocio
+- **Interfaz de Desarrollo**  → interfaz entre clientes y usuarios al grupo de desarrollo, UML (clases, casos de uso y paquetes), modelo de dominio y arquitectura de sistemas
+
+#### ¿QUÉ SON LOS REQUERIMIENTOS?
+
+- Definen lo que un sistema permite hacer desde el punto de vista del usuario
+(funcionales)
+- Definen condiciones de funcionamiento del sistema en el ambiente operacional (no funcionales)
+- Definen las condiciones a cumplir durante el desarrollo (de proceso).
+
+Definir el sistema a desarrollar → Comunicar y acordar el alcance y las prioridades → Planear el proyecto de desarrollo
+
+Los requerimientos deben describir el sistema que los clientes y usuarios necesitan, por eso hay que **_validarlos_**.
+
+#### Foco
+
+- La visión del proyecto **(por qué)**
+- La inclusión del vínculo de todos los involucrados en el negocio **(quién)**
+- El alcance del sistema a desarrollar **(qué)**
+- Las condiciones del ambiente operacional **(dónde)**
+- El comportamiento funcional esperado **(cómo)**
+- Los eventos del negocio **(cuándo)**
+
+![Modelo de Requerimientos](images/modreq.png)
