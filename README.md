@@ -42,41 +42,41 @@ Vista → Externa → Encuestas clientes
 
 ## Capitulo 3 - Trabajo con la organización - Mejora de procesos 
 
-### ¿Cuáles son las causas por las cuales los responsables de las organizaciones deciden embarcarse en un proceso de mejora?** 
+### 3.1 Visión del cambio
 
+#### ¿Cuáles son las causas por las cuales los responsables de las organizaciones deciden embarcarse en un proceso de mejora?
 
 - Trabajar de una mejor manera para generar un ambiente de trabajo más valorado por sus miembros y captar así a los mejores profesionales al convertir a la empresa en un lugar deseado.
 - Mejorar los procesos de desarrollo para mejorar la calidad de los productos generados y hacer a la empresa más competitiva, y como consecuencia de esto ganar una porción mayor del mercado.
 - Ser beneficiados por incentivos legales instituidos por políticas públicas y lograr beneficios impositivos que favorezcan las finanzas de la organización. 
 
 
-**Preguntas que hay que hacerse**
+#### Preguntas que hay que hacerse
 
-**¿Qué hay que cambiar? → Evaluar la situación** ← Falta de consenso → Listar los problemas de la organización sin causas ni responsables.
+- **¿Qué hay que cambiar? → Evaluar la situación** ← Falta de consenso → Listar los problemas de la organización sin causas ni responsables.
+- **¿Hacia dónde debe conducir el cambio? → Visión, estrategia, tácticas y buenos prácticas** ← Falta de consenso sobre la dirección, que funcione la solución, efectos no deseados → Listado de alternativas de cambio a los problemas, generar espacio de opinión
+- **¿Cómo implementar el cambio? → Desarrollo de tácticas y planes, sincronización de esfuerzos, planeamiento y liderazgo** ← Falta de una clara visión, falta de confianza → Depende de la planificación técnica y de los recursos que se cuente
 
-**¿Hacia dónde debe conducir el cambio? → Visión, estrategia, tácticas y buenos prácticas** ← Falta de consenso sobre la dirección, que funcione la solución, efectos no deseados → Listado de alternativas de cambio a los problemas, generar espacio de opinión
+### 3.2 Trabajando en los cambios
 
-**¿Cómo implementar el cambio? → Desarrollo de tácticas y planes, sincronización de esfuerzos, planeamiento y liderazgo** ← Falta de una clara visión, falta de confianza → Depende de la planificación técnica y de los recursos que se cuente
-
-**Forma de trabajo**
-
-`Modelo IDEAL`
+#### Modelo IDEAL
 
 https://d2mxuefqeaa7sj.cloudfront.net/s_3CD42C0A1EA7CD0DA0C0BD1151FAAC71E8734C01BD733190E2EE887B619624F1_1487436300464_Screen+Shot+2017-02-18+at+1.40.54+PM.png
 
-
 Inicio → Diagnostico → Planificar → Actuar → Aprender
 
-`Modelo EOALG → Escuchar y observar a la gente
+#### Modelo EOALG → Escuchar y observar a la gente
 
 Presentar → EO → Compartir → EO → Inducir → EO → Guiar → EO → Evaluar → EO → Acomodar y cambiar → Comunicar
 
-Fenómenos 
-→ **Desconcierto** → Punto de inflexión en el cambio, se necesita apoyo para superarlo, sino se vuelve a la forma original, mala pero segura. Sugiere realización de proyectos piloto.
+#### Fenómenos 
+
+→ **Desconcierto** → Punto de inflexión en el cambio, se necesita apoyo para superarlo, sino se vuelve a la forma original, mala pero segura. Sugiere realización de proyectos piloto.  
 → **Proceso virtual** → Punto medio entre el proceso real y el nuevo proceso, producto de la dilatación en la implementación
 
-Direcciones del cambio
+### 3.3 Aspectos y factores del Proceso de mejoras
 
+#### Direcciones del cambio
 
 - Tácito → Explícito → Conocimiento privado en lugar de organizacional
 - Informal → Formal → Habilidades particulares
@@ -86,16 +86,14 @@ Direcciones del cambio
 - Cualitativo → Cuantitativo → Análisis informal en lugar de métricas
 - Táctico → Estratégico → Planificar para hoy en lugar de a más largo plazo
 
-Aspecto socio-cultural de la gestión del cambio
-
+#### Aspecto socio-cultural de la gestión del cambio
 
 - Incrementar la capacidad de los empleados y de la organización.
 - Asegurar que la calidad sea un atributo organizacional.
 - Alinear los intereses de los individuos con los de la organización.
 - Retener recursos humanos y conocimiento críticos para la organización.
 
-Factores críticos y de riesgo
-
+#### Factores críticos y de riesgo
 
 - Procesos previos de mejora fracasados → +esfuerzo
 - Recursos financieros disponibles → +esfuerzo, no factibilidad
@@ -111,9 +109,7 @@ Factores críticos y de riesgo
 - Objetivos de negocio → Hay que tenerlos en cuenta, visión 
 - Visión → Preguntarse ¿Por qué? para descubrirla y darle forma
 
- 
- Factores generales de éxito
- 
+#### Factores generales de éxito
 
 - Expectativas realistas → Evita pasarse del alcance
 - Apoyo de la gerencia → Compromiso y soporte
@@ -130,16 +126,14 @@ Factores críticos y de riesgo
 - Mejoras y objetivos de negocios cerca  →  Logra aprobación de marketing y comercial
 - Vocabulario compartido → Identidad al proceso de cambio
 
- Factores de éxito en PYMES
+#### Factores de éxito en PYMES
  
-
 - Adaptarse a las características de la empresa → Si no es acorde, fracasa
 - Facilitar el aprendizaje horizontal con la experiencia de otras pequeñas empresas → Potencia recursos, aprovecha esfuerzos
 - Necesidad de acompañamiento → No afectar los procesos actuales por falta de personal
 - Claridad en el financiamiento → Tener claro el alcance financiero
 
- Recomendaciones
- 
+### Recomendaciones
 
 - No buscar una certificación como un fin sino como consecuencia
 - Compromiso total con la objetividad, la racionalidad y el aprendizaje
@@ -147,27 +141,25 @@ Factores críticos y de riesgo
 - Encuadrar la estrategia global de negocios
 - Acompañamiento como apoyo a la gestión de cambio y riesgo incremental 
 
+### 3.4 Gestión del cambio
 
-Oposición al cambio → Emergentes, positivos
-
+#### Oposición al cambio → Emergentes, positivos
 
 - Las organizaciones están compuestas por personas, por lo tanto son organizaciones vivas.
 - Los seres vivos no cambian, reaccionan.
 - Detectar los emergentes en estas reacciones e interpretar su visión.
 - Alinear los intereses emergentes con los del proceso de cambio. 
 
-Cultura organizacional
+#### Cultura organizacional
 
 Estructura → Claves → Objetivos → Comportamiento ante cambios → Ejemplo
-
 
 - **Jerárquica** → Reglas y rutinas formales → Estabilidad y control → Cumplimiento de procedimientos → Resistencia status quo → Estructura militar, desarrollo con mezcla de tareas operativas y de desarrollo
 - **Racionalista** → Basada en la capacitación → Productividad y eficiencia → Seguimiento de objetivos → Abierta a cambios por objetivos → Software factory, modelo CMMi
 - **Consensual** → Basada en la colaboración grupal  → Cohesión y moral  →  Mantenimiento del grupo → Abierta a cambios → Org. no gubernamentales sin fines de lucro (fuera de SW)
 - **Desarrollo Humano** → Basada en la colaboración grupal → Flexibilidad, centrado en la gente → Crecimiento y desarrollo de los miembros → Cambios naturales → Comunidades científicas
 
-Estrategia
-
+#### Estrategia
 
 - Acordar visión y objetivos con la autoridad  → sin ella es imposible dar directivas
 - Crear canales de comunicación y comunicar
@@ -175,11 +167,11 @@ Estrategia
 - Convertir la reacción en Emergentes y utilizarla en la Planificación
 - Detectar problemas, que cambiar y como implementar cambios
 
-Tácticas
-
+#### Tácticas
 
 - Detectar agentes de cambio y trabajar con ellos
 - Seleccionar temas puntuales. Trabajar en forma incremental
 - Rescatar lo bueno, bien hecho y conservarlo como parte de la mejora
 - Fundamentar los cambios y mostrar resultados con frecuencia
 
+#### Liderazgo

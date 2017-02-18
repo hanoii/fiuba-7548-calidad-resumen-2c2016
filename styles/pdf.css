@@ -1,0 +1,10 @@
+html, body, .page .section {
+    text-size-adjust: 50%;
+    -ms-text-size-adjust: 50%;
+    -webkit-text-size-adjust: 50%;
+    -moz-text-size-adjust: 50%
+}
+
+body, .page .section {
+  color: red;
+}
