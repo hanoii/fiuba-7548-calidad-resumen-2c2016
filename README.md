@@ -328,6 +328,30 @@ De alcance y esfuerzo
 - Las estimaciones teóricas deben ser ajustadas a la realidad del proyecto
 - Las planificaciones no pueden acortarse sumando gente a los proyecto
 
+#### Metodologías ágiles vs conducida por los planes
+
+- Chrystal
+- Xtreme Programming
+
+- **Ágiles**: Basan su esecnia en maximizar la producción
+- **Guiadas por los planes**: Se basan en el gasto operativo
+
+**¿Cómo elegimos la metodología para el proyecto?**
+
+- **Conducida por los gastos**: Gasto operativo → Inventario → Producción
+- **Conducida por producción**: Producción → Inventario → Gasto operacional (← Foco)
+- **Conducida por los planes**: Alcance → Presupuesto → Duración
+- **Ágiles**: Duración → Presupuesto → Alcance (→ Grados de libertad)
+
+```
+Ágiles ←------------------------------→ Conducida por los planes
+            -  Dominio maduro  +
+            -  Complejidad  +
+            -  Proceso Instalado  +
+            +  Capacidad desarrolladores  -
+            +  cliente colaborativo  -
+```
+
 ### 5.3 Seguimiento del desarrollo de proyectos
 
 #### Líder de proyecto
@@ -437,6 +461,8 @@ Cambiar la forma de trabajo con pruebas porque:
 
 #### Automatización
 
+`JUnit (y familia xUnit)`
+
 - Mejorar la calidad del software
 - Entender el SUT (System Under Test)
 - Reducir los riesgos
@@ -446,6 +472,31 @@ Cambiar la forma de trabajo con pruebas porque:
 
 - **La facilidad de ejecución está directamente ligada** a la constante ejecución de los test.
 - **La mejora de la calidad se produce por** la incorporación en etapas tempranas de los programadores al proceso de pruebas
+
+**¿Qué debe automatizarse?**
+
+- Pruebas unitarias y de componentes
+- Pruebas de funcionalidad sin interfaz de usuario
+- Pruebas de sistema con interfaces de usuario
+
+**Ambiente de pruebas**
+
+Adelantar las tareas que tienen que ver con las pruebas
+  → Generar un ***Criterio de diseño basado en las pruebas*** (Hacerlo en la etapa de diseño)
+
+Los tests deben ser:
+- **Atómicos**
+- **Independientes**
+- **Repetibles**
+- Criterio de diseño basado en las pruebas
+
+**Estrategia**
+
+- Capacitación a analistas, testers y programadores
+- Seleccionar una forma de trabajo
+- Seleccionar herramientas
+- Desarrollar proyectos pilotos
+- Institucionalizar
 
 ## 6.3 Integración continua
 
@@ -481,4 +532,6 @@ La preocupación que expresamos en el comienzo del capítulo fue conocer, en cad
 Cuestionamos las especulaciones que generalmente se utilizan para dar una respuesta certera a esta pregunta y para ello promovimos la utilización de un repositorio de código fuente con ciertas reglas de uso, la sistematización y automatización de las pruebas, la integración continua por parte de un servidor destinado a tal fin y la revisiones de productos conducidas por métricas obtenidas de los informes de resultados.
 
 En definitiva, buenas prácticas orientadas a garantizar la calidad de los productos de los proyectos organizando y controlando la logística.
+
+## Capítulo 7 - Trabajo con Modelos de Desarrollo - CMMI
 
