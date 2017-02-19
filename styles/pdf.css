@@ -6,5 +6,9 @@ html, body, .page .section {
 }
 
 body, .page .section {
-  color: red;
+}
+
+.page .section img {
+  max-width: 300px;
+  margin-left: 80px;
 }

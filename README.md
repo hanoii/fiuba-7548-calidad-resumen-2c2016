@@ -18,10 +18,10 @@
 9. Haciendo visibles los objetivos
 10. Enfocándonos en generar valor agregado con cada entrega 
 
-### Problemas
+#### Problemas
 
 - Falta de involucración del **cliente**
-- Falta del compromiso de **org. desarrolladora**
+- Falta del compromiso de **organización desarrolladora**
 - Falta de un claro entendimiento de los **requerimientos**
 
 Calidad → Interna + Externa
@@ -122,7 +122,7 @@ Presentar → EO → Compartir → EO → Inducir → EO → Guiar → EO → Ev
 - Auditorías de proceso en la implementación → Corregir y acompañar
 - Encuestas de efectividad de los equipos de trabajo → Retroalimentación
 - Comenzar con los ajustes gerenciales más altos → Genera confianza
-- Tener acompañamiento de expertos en cambio organizacional → En general no hay
+- Tener acompañamiento de expertos en cambio organizacional → En general no hay
 - Mejoras y objetivos de negocios cerca  →  Logra aprobación de marketing y comercial
 - Vocabulario compartido → Identidad al proceso de cambio
 
@@ -130,16 +130,16 @@ Presentar → EO → Compartir → EO → Inducir → EO → Guiar → EO → Ev
  
 - Adaptarse a las características de la empresa → Si no es acorde, fracasa
 - Facilitar el aprendizaje horizontal con la experiencia de otras pequeñas empresas → Potencia recursos, aprovecha esfuerzos
-- Necesidad de acompañamiento → No afectar los procesos actuales por falta de personal
+- Necesidad de acompañamiento → No afectar los procesos actuales por falta de personal
 - Claridad en el financiamiento → Tener claro el alcance financiero
 
 #### Recomendaciones
 
 - No buscar una certificación como un fin sino como consecuencia
 - Compromiso total con la objetividad, la racionalidad y el aprendizaje
-- Adecuarse a las características de la empresa (tamaño, cultura, estructura, tipo de negocio)
+- Adecuarse a las características de la empresa (tamaño, cultura, estructura, tipo de negocio)
 - Encuadrar la estrategia global de negocios
-- Acompañamiento como apoyo a la gestión de cambio y riesgo incremental 
+- Acompañamiento como apoyo a la gestión de cambio y riesgo incremental 
 
 ### 3.4 Gestión del cambio
 
@@ -187,12 +187,12 @@ Estructura → Claves → Objetivos → Comportamiento ante cambios → Ejemplo
 
 #### Rol del analista
 
-Doble intefaz
+Doble interfaz
 
 - **Interfaz de Negocio**  → técnicas de relevamiento, UML (actividad, estado y secuencia) y documentación de proceso de negocio
 - **Interfaz de Desarrollo**  → interfaz entre clientes y usuarios al grupo de desarrollo, UML (clases, casos de uso y paquetes), modelo de dominio y arquitectura de sistemas
 
-#### ¿QUé SON LOS REQUERIMIENTOS?
+#### ¿Qué son los requerimientos?
 
 - Definen lo que un sistema permite hacer desde el punto de vista del usuario
 (funcionales)
@@ -203,15 +203,236 @@ Definir el sistema a desarrollar → Comunicar y acordar el alcance y las priori
 
 Los requerimientos deben describir el sistema que los clientes y usuarios necesitan, por eso hay que **_validarlos_**.
 
+### 4.2 Tareas asociadas a los requerimientos
+
 #### Foco
 
-- La visió́n del proyecto **(por qué)**
+![Modelo de Requerimientos](images/modreq.png)
+
+- La visión del proyecto **(por qué)**
 - La inclusión del vínculo de todos los involucrados en el negocio **(quién)**
 - El alcance del sistema a desarrollar **(qué)**
 - Las condiciones del ambiente operacional **(dónde)**
 - El comportamiento funcional esperado **(cómo)**
 - Los eventos del negocio **(cuándo)**
 
-![Modelo de Requerimientos](images/modreq.png)
+#### Nivel
+
+Determina el detalle que son tratados los aspectos. Depende del ciclo de vida
+
+#### Vista
+
+Depende de los modelos que se utilicen
+
+- Estructura (modelo de dominio)
+- Dinámica (diagramas de secuencia)
+- Comportamiento (diagramas de casos de uso)
+- Control (reglas de negocio, modelo de análisis)
+
+**Es fundamental relevar los requerimientos desde los distintos enfoques (FOCO) construyendo los distintos modelos (VISTAS) y trabajando según el ciclo de vida del proyecto (NIVEL).**
+
+### 4.3 Estrategia y tácticas en el trabajo con requerimientos
+
+#### Estrategia
+
+Planear → Hacer → Revisar → Corregir
+
+#### Tácticas
+
+Los requerimientos deben cumplir con
+
+- Completitud
+- Correctitud
+- No ambigüedad
+
+#### Casos de uso
+
+Describe la dinámica entre un actor y como responde el sistema
+
+![Caso de uso](images/casodeuso.png)
+
+### 4.4 Análisis de requerimientos
+
+#### Dominio y Negocio vs Diseño
+
+→ Objetivo → Mecanismo utilizado
+
+**Modelo de Negocio** → Entender en detalle el negocio y sus reglas → Patrones de análisis
+
+**Diseño** → Implementar una solución al problema planteado en el análisis más las restricciones impuestas por los requerimientos no funcionales → Patrones de diseño
+
+### 4.5 Validación y Verificación
+
+**Validación** → Programación definitivo o prototipo y ejecutar las validaciones de las reglas de negocio. Validación del comportamiento de la aplicación con los usuarios según caso de uso.
+
+**Verificación** → Diseño y ejecución de pruebas (test) que darán la certeza que hemos construido el sistema de manera correcta. 
+
+### 4.6 Administración de cambios a los requerimientos
+
+- Gestionar los cambios
+- Que tratamientos les daremos a esos cambios
+
+#### 4.7 Conclusiones
+
+De lo expuesto se concluye que el trabajo con los requerimientos es mucho más que relevar y listar los “el sistema debe...” de todo proyecto de desarrollo.
+
+Es de primera importancia planificar el trabajo con los requerimientos.
+
+Es fundamental relevar los requerimientos desde los diferentes enfoques (Foco), construyendo los diferentes modelos (Vistas) y trabajando según el momento del ciclo de vida del proyecto (Nivel).
+
+Es necesario que el listado cuente con determinadas propiedades (detallado, atómico, completo, correcto, no ambiguo) para no ser solo un listado de características.
+
+Se debe, a partir de la especificación del comportamiento de la aplicación a desarrollar (casos de uso), definir cómo se implementarán estos requerimientos.
+
+Es necesario contar con un modelo de dominio que siente las bases para un posterior diseño y que esencialmente describa al negocio.
+
+En todos los casos, administrar los cambios surgidos durante el proceso de desarrollo.
+
+Por último debemos validar y verificar todo este trabajo con los requerimientos.
+
+## 5. Trabajo con la gestión de proyectos
+
+### 5.1 Proyectos
+
+![Proyectos iterativos](images/proyectos.png)
+
+### 5.2 Planificación de proyectos
+
+#### Estrategia
+
+Metodología no es estrategia
+
+- Logro de objetivos
+- Implementar los requerimientos priorizados
+- Orientada a evitar/sobrepasar los obstáculos (riesgos)
+
+- Objetivos a partir de la visión → Financiera, cliente usuarios
+- Conocer los riesgos → Detectarlos, gestión
+- Entender la solución y alcance → Requerimientos, Listar/priorizar casos de uso
+- Estimar → Casos de uso, interfaces con sistemas externos, Reportes
+- Definir procesos → Metodología, Roles
+- Cronograma priorizado -> Hitos, relaciones
+
+#### Riesgos
+
+- **Requerimientos** → Complejidad y falta de disponibilidad
+- **Tecnología** → Falta de experiencia o madurez
+- **Organización** →  Falta de apoyo de la gerencia
+- **Cliente** → Falta de experiencia en proyectos de desarrollo
+- **Grupos de desarrollo** → Grupos nuevos sin trabajos anteriores
+
+#### Estimaciones
+
+De alcance y esfuerzo
+
+- Las estimaciones teóricas deben ser ajustadas a la realidad del proyecto
+- Las planificaciones no pueden acortarse sumando gente a los proyecto
+
+### 5.3 Seguimiento del desarrollo de proyectos
+
+#### Líder de proyecto
+
+1. Generar en tiempo y forma los eventos planificados
+2. Facilitar los acuerdos necesarios
+3. Tomar decisiones
+
+**Sí**
+
+- Cohesión en el grupo
+- Necesidades personales
+- Facilitar la planificación
+- Decisiones apoyado en referentes técnicos
+- Informado y actualizado sobre la tecnología
+- Tomar decisión en caso de desacuerdo
+- Motivar y comprometer a los usuarios y clientes
+- Escalar problemas
+
+**No**
+
+- Competir
+- Ignorar tecnología
+- Desatender el proyecto por cuestiones corporativas
+- Olvidar que los desarrolladores son lo + importante
+- Olvidar que hay que entregar un producto funcionado
+- Temer parar cuando la factibilidad esté cuestionada
+
+#### Puntos de observación
+
+Para informar el estado y avance y tomar decisiones al respecto.
+
+Fotos versus película
+→ Tratamiento de una decena de tema
+→ No seguimiento de los temas tratados
+
+#### Escalamiento
+
+- Roles predefinidos y asumidos
+- Gerentes muy bien informados acerco de los proyectos
+
+#### Métricas
+
+- Progreso acumulado vs Cronograma, iteraciones → Al variar las correcciones y los requerimientos, creciendo y luego decreciendo, es un indicador de la evolución **estable** del proyecto.
+- Relación entre errores detectados y corregidos
+
+![Métricas](images/metricas.png)
+
+Otro grupo: GQM (Goal-Question-Metric). Preguntas al negocio para obtener una métrica 
+
+Distintas métricas según fase
+
+- Adherencia → Incorporación y cumplimiento de procesos y procedimientos
+- Estabilidad → Para tomar acciones aque ayuden a mantenerla
+- Capacidad → Una Cubrimiento de los objetivos
+- Comportamiento → Eficiencia y eficacia
+- Mejora → Para mejora continua
+
+### 5.4 Conclusión
+
+A efectos de lograr una buena gestión de los proyectos de desarrollo de software de forma que generen productos de calidad se debe:
+
+- Elaborar una estrategia en base a los objetivos, prioridades y riesgos
+- Volcar en una planificación los esfuerzos estimados según la estrategia
+- Realizar el seguimiento resolviendo los problemas que se generen y escalando los que excedan nuestras responsabilidades
+- Detenerse ante los problemas y no continuar hasta resolverlos
+- Explicar cada decisión y comunicarla a todos los involucrados
+- Tomar métricas que nos provean indicadores de la evolución de los proyectos de alineados a los objetivos del negocio y a los procesos de nidos para la organización
+
+## Capítulo 6 - Trabajo con la Implementación. Diseño, codificación y pruebas
+
+### 6.1 Diseño, codificación y pruebas
+
+**Problemas**
+
+- Proceso de Diseño → Revisión de los diseños con pares y otros miembros. Búsqueda de que revisar
+- Construcción → Pruebas unitarios y de integración es costosa. Buscar automatización, también búsqueda de que revisar
+- Pruebas → Realizar pruebas no contribuye a la mejora de calidad, sino solo a detectar errores, se necesita una acción constructiva global
+
+### 6.2 Pruebas de software
+
+Cambiar la forma de trabajo con pruebas porque:
+
+- El ciclo de prueba manual es muy largo
+- El proceso de prueba manual es propenso a errores
+- Liberar a la gente para realizar tareas creativas
+- Generar un ambiente de confianza soportado por los test
+- Obtener realimentación de forma temprana y con alta frecuencia
+- Generar conocimiento del sistema en desarrollo a partir de los test
+- Generar documentación consistente del código
+- Generar una mejor utilización de los recursos a partir de menores costos
+- Desarrollar un criterio de diseño basado en las pruebas
+
+**Necesitamos**
+
+- Automatizar y sistematizar las pruebas
+- Desarrollar un criterio de diseño basado en las pruebas
+
+### Repositorio
+
+- Haga commit con frecuencia
+- Construya binarios con cada cambio
+- No tome del repositorio (checkout) a su estación de trabajo código no funciona
+- Escriba test unitarios sistemáticos para el código que desarrolla
+- Antes de subir al repositorio (check in) el código desarrollado y todos los tests (suyos y los de los otros desarrolladores) deben ser ejecutados con éxito
+- Corrija los errores (tests sin funcionar) que su código generó en forma inmediata
 
 
