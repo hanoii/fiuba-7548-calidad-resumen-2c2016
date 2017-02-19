@@ -426,7 +426,7 @@ Cambiar la forma de trabajo con pruebas porque:
 - Automatizar y sistematizar las pruebas
 - Desarrollar un criterio de diseño basado en las pruebas
 
-### Repositorio
+#### Repositorio
 
 - Haga commit con frecuencia
 - Construya binarios con cada cambio
@@ -435,4 +435,50 @@ Cambiar la forma de trabajo con pruebas porque:
 - Antes de subir al repositorio (check in) el código desarrollado y todos los tests (suyos y los de los otros desarrolladores) deben ser ejecutados con éxito
 - Corrija los errores (tests sin funcionar) que su código generó en forma inmediata
 
+#### Automatización
+
+- Mejorar la calidad del software
+- Entender el SUT (System Under Test)
+- Reducir los riesgos
+- Tests fáciles de ejecutar
+- Tests fáciles de escribir y mantener, si es posible en el mismo lenguaje en que los desarrolladores programan el sistema
+- Tests con mínimo mantenimiento ante evolución del sistema
+
+- **La facilidad de ejecución está directamente ligada** a la constante ejecución de los test.
+- **La mejora de la calidad se produce por** la incorporación en etapas tempranas de los programadores al proceso de pruebas
+
+## 6.3 Integración continua
+
+1. Commit
+2. IC detecta cambio, hace un build, ejecuta tests, toma métricas y elabora informes.
+3. IC envía mail al grupo de desarrollo
+4. IC continua monitoreando para cambios
+
+## 6.4 Revisiones de diseño y código
+
+Revisiones por pares y/o especialistas. (Ayuda a detectar errores)
+
+- **Formales**: Con roles y responsabilidades, y un procedimiento de nido.
+- **Informales**: Con roles desdibujados y sin procedimiento.
+
+**Objetivos**
+
+1. Detectar problemas de análisis, diseño y código en forma temprana 
+2. Definir y acordar criterios de retrabajo para su resolución
+3. Verificar que se resolvió de acuerdo al criterio acordad
+
+**Beneficios**
+
+1. Genera datos acerca del producto y del proceso de desarrollo
+2. Genera conocimiento entre miembros del grupo de desarrollo
+3. Aumenta la efectividad de la validación y verificación
+4. Contribuye a la instalación del concepto de calidad
+
+## 6.5 Conclusiones
+
+La preocupación que expresamos en el comienzo del capítulo fue conocer, en cada momento de las iteraciones de la construcción de un sistema en desarrollo, el estado actualizado de los productos generados por el proyecto.
+
+Cuestionamos las especulaciones que generalmente se utilizan para dar una respuesta certera a esta pregunta y para ello promovimos la utilización de un repositorio de código fuente con ciertas reglas de uso, la sistematización y automatización de las pruebas, la integración continua por parte de un servidor destinado a tal fin y la revisiones de productos conducidas por métricas obtenidas de los informes de resultados.
+
+En definitiva, buenas prácticas orientadas a garantizar la calidad de los productos de los proyectos organizando y controlando la logística.
 
