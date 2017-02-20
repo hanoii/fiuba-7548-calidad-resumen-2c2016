@@ -893,6 +893,48 @@ Les dan autonomía a las BU y usan procesos muy estandarizados. En este tipo de 
 
 ![Gobierno IT - Arquitectura Madurez](images/gobierno-madurez.png)
 
+## Cadena crítica
+
+La ruta crítica determina cuándo se va a terminar el proyecto. Cualquier demora en la ruta crítica, demorará al proyecto.
+
+### Tarde vs temprano
+
+**Comienzo temprano** → No dejamos nada para último momento
+**Comienzo tardío** → Posponemos las inversiones hasta que sean necesarias
+
+¿Y qué pasa con el foco del administrador del proyecto?
+
+- Si comenzamos todas las rutas en su inicio más temprano, el líder de proyecto tendrá mucho en que enfocarse.
+- Si comenzamos todas las rutas en su inicio más tardío, todas las rutas se vuelven críticas, y también el líder del proyecto tendrá que enfocarse en todo.
+
+### Teoría de las restricciones
+
+- Una nueva filosofía generancial (ej. TQM, JIT)
+- Introduce métodos de invetigación adaptados de las ciencias exactas
+- Amplio espectro de aplicaciones robustas
+
+
+### Administrar de acuerdo al mundo del Throughput** (Rendimiento)
+
+![Cadena crítica - costos vs rendimiento](images/cadena-costosrendimiento.png)
+
+Protejer el cuello de botella
+
+### Margenes de seguridad
+
+- **Sindrome del estudiante** → Dejar todo para último momento
+- **Multitareas** → Las tareas divididas terminan tardando el doble
+- **Tareas en paralelo** → Si una se atrasas, atrasa a todas
+
+### Amortiguadores
+
+- **Amortiguador de proyecto** → Uitlizar la mitad de los buffers de cada tarea y sumarlos al final
+- **Amortiguador de alimentación** → Buffers de alimentación a la ruta crítica
+- **Amortiguador de recursos** → Buffers de alimentación a un recurso compartido
+
+`Identficar la limitación, hay que protejerla!`
+
+![Cadena crítica - amortiguadores](images/cadena-amortiguadores.png)
 
 ## Activos
 
