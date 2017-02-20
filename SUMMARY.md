@@ -36,6 +36,7 @@
   * [Gobierno IT](README.md#gobierno-it)
     * [Nivel de decisión](README.md#nivel-de-decisión)
     * [Arquetipos](README.md#arquetipos)
+    * [Framework de diseño de Gobierno](README.md#framework-de-diseño-de-gobierno)
     * [Modelos operacionales](README.md#modelos-operacionales)
     * [Arquitectura - madurez](README.md#arquitectura---madurez)
   * [Cadena crítica](README.md#cadena-crítica)

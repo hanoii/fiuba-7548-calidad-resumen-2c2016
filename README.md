@@ -824,8 +824,7 @@ Optimizar el alineamiento entre las necesidades cambiantes del negocio y los ser
 
 **Aplicaciones de Negocio** → Business requirements for purchased or internally developed IT applications.
 
-- ¿Cuáles son las oportunidades de negocio (mercado y procesos) para las
-- nuevas aplicaciones de las diferentes UN?
+- ¿Cuáles son las oportunidades de negocio (mercado y procesos) para las nuevas aplicaciones de las diferentes UN?
 - ¿Cómo fueron estimados sus posibles éxitos?
 - ¿Cómo pueden ser insertas en la arquitectura organizacional? ¿Cuáles y por qué justifican excepciones?
 - ¿Quién es el responsable de los proyectos que asegure el valor estimado?
@@ -852,6 +851,17 @@ Optimizar el alineamiento entre las necesidades cambiantes del negocio y los ser
 - E: Entrada
 - D: Decisión
 
+### Framework de diseño de Gobierno
+
+![Gobierno IT - Framework](images/gobierno-framework.png)
+
+- Estrategia y organización de la empresa: la estrategia enfoca la atención de todos los empleados en mensajes simples y alcanzables. La organización de la estructura define las responsabilidades para implementar estrategias.
+- Arreglos de gobierno de IT: identifican el arquetipo utilizado para cada decisión.
+- Objetivos de performance del negocio: objetivos claros para los cuerpos de gobierno y una vara para medir el éxito de los esfuerzos.
+- Organización de IT y comportamiento deseado: el comportamiento deseado debe estar en harmonía con la dirección estratégica.
+- Mecanismos de gobierno de IT: algunos mecanismos se centran en solo un tipo de decisión (comité de arquitectura para decisiones de arquitectura) mientras que otros se encargan de algunas y hasta incluso las 5 decisiones (comité ejecutivo decide acerca de inversión y principios). Mecanismos bien diseñados refuerzan y promueven el comportamiento esperado e impulsan las métricas.
+- Métricas y rendición de cuentas de IT: el comportamiento esperado de IT se ve reflejado en las métricas. Articular quién es responsable de qué cosa y cómo va a ser evaluado provee claridad, propiedad y herramientas para evaluar el desempeño del gobierno.
+
 ### Modelos operacionales
 
 ![Gobierno IT - Modelos operacionales](images/gobierno-operacional.png)
@@ -860,7 +870,7 @@ Optimizar el alineamiento entre las necesidades cambiantes del negocio y los ser
 
 **Diversificación** → Baja estandarización, baja integración
 
-Se usa cuando se comparten clientes, productos o proveedores entre BU, mientras que los procesos cuentan con operaciones únicas, a veces demandando capacidades únicas. Este tipo de organizaciones por lo general no buscan bajo costo, se tienen BU autónomas que ejecutan sus procesos de la forma más eficiente posible y los directivos corporativos se centra en proveer el mejor servicio a los clientes.
+Se usa para organizaciones donde    sus BU tienen pocos clientes, proveedores o formas de llevar el negocio en común.
 
 ![Gobierno IT - Diversificación](images/gobierno-diversificacion.png)
 
@@ -878,7 +888,7 @@ Les dan autonomía a las BU y usan procesos muy estandarizados. En este tipo de 
 
 **Unificación** → alta estandarización, alta integración.
 
-Les dan autonomía a las BU y usan procesos muy estandarizados. En este tipo de modelo el éxito de las organizaciones dependen de la eficiencia y procesos repetitivos antes que relaciones compartidas de clientes.
+Las organizaciones que usan este modelo no encuentran mucho beneficio en BU autónomas. Maximizar eficiencia y servicio del cliente presentando información integrada y resultados esperados.
 
 ![Gobierno IT - Unificación](images/gobierno-unificacion.png)
 
