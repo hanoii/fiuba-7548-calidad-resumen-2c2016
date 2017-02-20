@@ -33,6 +33,8 @@
     * [3. Fase transición](README.md#3-fase-transición)
     * [4. Fase operación](README.md#4-fase-operación)
     * [5. Mejora continua](README.md#5 mejora-continua)
+  * [Gobierno IT](README.md#gobierno-it)
+    * [Nivel de decisión](README.md#nivel-de-decisión)
   * [Activos](README.md#activos)
     * [Especificación de requerimientos](README.md#especificación-de-requerimientos)
     * [Modelo de especificación de casos de uso](README.md#modelo-de-especificación-de-casos-de-uso)

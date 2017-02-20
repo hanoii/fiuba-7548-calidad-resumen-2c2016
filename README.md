@@ -225,7 +225,7 @@ Determina el detalle que son tratados los aspectos. Depende del ciclo de vida
 Depende de los modelos que se utilicen
 
 - Estructura (modelo de dominio)
-- Dinámica (diagramas de secuencia)
+- Dinámica (diagramas de secuencia)
 - Comportamiento (diagramas de casos de uso)
 - Control (reglas de negocio, modelo de análisis)
 
@@ -280,7 +280,7 @@ Es de primera importancia planificar el trabajo con los requerimientos.
 
 Es fundamental relevar los requerimientos desde los diferentes enfoques (Foco), construyendo los diferentes modelos (Vistas) y trabajando según el momento del ciclo de vida del proyecto (Nivel).
 
-Es necesario que el listado cuente con determinadas propiedades (detallado, atómico, completo, correcto, no ambiguo) para no ser solo un listado de características.
+Es necesario que el listado cuente con determinadas propiedades (detallado, atómico, completo, correcto, no ambiguo) para no ser solo un listado de características.
 
 Se debe, a partir de la especificación del comportamiento de la aplicación a desarrollar (casos de uso), definir cómo se implementarán estos requerimientos.
 
@@ -470,7 +470,7 @@ Cambiar la forma de trabajo con pruebas porque:
 - Tests fáciles de escribir y mantener, si es posible en el mismo lenguaje en que los desarrolladores programan el sistema
 - Tests con mínimo mantenimiento ante evolución del sistema
 
-- **La facilidad de ejecución está directamente ligada** a la constante ejecución de los test.
+- **La facilidad de ejecución está directamente ligada** a la constante ejecución de los test.
 - **La mejora de la calidad se produce por** la incorporación en etapas tempranas de los programadores al proceso de pruebas
 
 **¿Qué debe automatizarse?**
@@ -540,9 +540,9 @@ Modelo de **capacidad** (6 niveles) y **madurez** (5 niveles)
 - **Capacidad** → Qué tan bien se desempeña la organización en un *área de proceso* individual
 - **Madurez** → Cómo se desempeña la organización en base a la madurez en un *conjunto de áreas de proceso*
 
-El modelo está compuesto por los siguientes componentes: **objetivos, prácticas y subprácticas**.
+El modelo está compuesto por los siguientes componentes: **objetivos, prácticas y subprácticas**.
 
-- **Objetivos → componentes requeridos** → específicos, por área de proceso, y genéricos, relacionados a la institucionalización
+- **Objetivos → componentes requeridos** → específicos, por área de proceso, y genéricos, relacionados a la institucionalización
 - **Prácticas → esperadas** Si se alcanzaron los objetivos, también específicas y genéricas
 - **Subprácticas → componentes informativos** → Interpretación e implementación de trabajo. Activos de trabajo y distintas disciplinas.
 
@@ -642,7 +642,7 @@ Conjunto estructurado de actividades como entrevistas, revisión de documentaci�
 - Entender las necesidades de la organización y realizar un análisis de factibilidad del proyecto asociado a las mejoras utilizando CMMi.
 - Confirmar el compromiso de los dirigentes de la organización para con el proyecto en forma periódica.
 - Adaptar el modelo a la realidad de la organización.
-- Administrar los cambios como se trató en el capítulo tres.
+- Administrar los cambios como se trató en el capítulo tres.
 - Hacer planificaciones realistas basadas en el gap analisis.
 - Rescatar todo lo bueno instalado en la organización previamente al inicio de la mejora de procesos.
 - Seleccionar cuidadosamente a los mentores.
@@ -670,7 +670,7 @@ Buenas prácticas de adm. de tecnología informática
 
 ### 1. Fase estrategia
 
-***Desde la perspectiva de un responsable de IT de una organización*** ¿Qué se debe tener en cuenta al momento de fijar una estrategia para la prestación de servicios?
+***Desde la perspectiva de un responsable de IT de una organización*** ¿Qué se debe tener en cuenta al momento de fijar una estrategia para la prestación de servicios?
 
 **Gobierno y toma de decisiones**
 
@@ -722,7 +722,7 @@ Conjunto de servicios a ofrecer a partir de un conjunto de oportunidades surgida
 
 **Portafolio de servicios**
 
-El portafolio de servicios está compuesto por los *servicios activos, los servicios planeados para mejora, integración, extensión y desarrollo con sus respectivos presupuestos, contratos y compromisos asociados*; en cualquiera de las fases de su ciclo de vida.
+El portafolio de servicios está compuesto por los *servicios activos, los servicios planeados para mejora, integración, extensión y desarrollo con sus respectivos presupuestos, contratos y compromisos asociados*; en cualquiera de las fases de su ciclo de vida.
 
 Administración del portafolio: Definir → Analizar → Aprobar → Entregar
 
@@ -796,6 +796,41 @@ Fase de las **actividades y la infraestructura del día a día en la posición d
 **Propósito**
 
 Optimizar el alineamiento entre las necesidades cambiantes del negocio y los servicios provistos que soporten los procesos de negocio. Lograr efectividad y eficiencia a buenos costos.
+
+## Gobierno IT
+
+### Nivel de decisión
+
+**Principios de IT**
+- ¿Cuál es el modelo operativo de la organización?
+- ¿Cuál es el rol de IT en el negocio?
+- ¿Cuál es el comportamiento deseable del negocio?
+- ¿Cómo será soportada IT?
+
+**Arquitectura de IT**
+- ¿Cuáles son los procesos centrales del negocio? ¿Cómo están relacionados?
+- ¿Qué información conducen estos procesos? ¿Cómo deben integrarse?
+- ¿Qué capacidades tecnológicas deberían estandarizarse a través de la organización para hacer eficientes los procesos y facilitar la integración?
+- ¿Qué criterio tecnológico guiará la iniciativa de IT?
+
+**Infraestructura de IT**
+- ¿Cuáles son los servicios de infraestructura críticos para lograr los objetivos?
+- ¿Cuáles son los servicios y sus SLA? ¿Cuáles serán tercerizados?
+- ¿Cómo serán sustentados los servicios necesarios?
+- ¿Cuál es el plan para adaptar la tecnología?
+
+**Aplicaciones de Negocio**
+- ¿Cuáles son las oportunidades de negocio (mercado y procesos) para las
+- nuevas aplicaciones de las diferentes UN?
+- ¿Cómo fueron estimados sus posibles éxitos?
+- ¿Cómo pueden ser insertas en la arquitectura organizacional? ¿Cuáles y por qué justifican excepciones?
+- ¿Quién es el responsable de los proyectos que asegure el valor estimado?
+
+**Inversiones de IT**
+- ¿Cuáles son los procesos prioritarios de IT?
+- ¿Cómo están tratados en el portafolio? ¿Son consistentes con los objetivos del negocio?
+- ¿Cuál es la importancia relativa entre la inversión de la ORG y de la UN?
+- ¿Las inversiones actuales reflejan esta relación?
 
 ## Activos
 
