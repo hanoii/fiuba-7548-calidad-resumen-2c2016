@@ -801,36 +801,98 @@ Optimizar el alineamiento entre las necesidades cambiantes del negocio y los ser
 
 ### Nivel de decisión
 
-**Principios de IT**
+**Principios de IT** → High-level decisions about the strategic role of IT in the business.
+
 - ¿Cuál es el modelo operativo de la organización?
 - ¿Cuál es el rol de IT en el negocio?
 - ¿Cuál es el comportamiento deseable del negocio?
 - ¿Cómo será soportada IT?
 
-**Arquitectura de IT**
+**Arquitectura de IT** → An integrated set of technical choices to guide the organization in satisfying business needs.
+
 - ¿Cuáles son los procesos centrales del negocio? ¿Cómo están relacionados?
 - ¿Qué información conducen estos procesos? ¿Cómo deben integrarse?
 - ¿Qué capacidades tecnológicas deberían estandarizarse a través de la organización para hacer eficientes los procesos y facilitar la integración?
 - ¿Qué criterio tecnológico guiará la iniciativa de IT?
 
-**Infraestructura de IT**
+**Infraestructura de IT** → Centrally coordinated, shared IT services providing the foundation for the enterprise’s IT capability and typically created before precise usage needs are known
+
 - ¿Cuáles son los servicios de infraestructura críticos para lograr los objetivos?
 - ¿Cuáles son los servicios y sus SLA? ¿Cuáles serán tercerizados?
 - ¿Cómo serán sustentados los servicios necesarios?
 - ¿Cuál es el plan para adaptar la tecnología?
 
-**Aplicaciones de Negocio**
+**Aplicaciones de Negocio** → Business requirements for purchased or internally developed IT applications.
+
 - ¿Cuáles son las oportunidades de negocio (mercado y procesos) para las
 - nuevas aplicaciones de las diferentes UN?
 - ¿Cómo fueron estimados sus posibles éxitos?
 - ¿Cómo pueden ser insertas en la arquitectura organizacional? ¿Cuáles y por qué justifican excepciones?
 - ¿Quién es el responsable de los proyectos que asegure el valor estimado?
 
-**Inversiones de IT**
+**Inversiones de IT** → Decisions about how much and where to invest in IT, including project approval and justification techniques.
+
 - ¿Cuáles son los procesos prioritarios de IT?
 - ¿Cómo están tratados en el portafolio? ¿Son consistentes con los objetivos del negocio?
 - ¿Cuál es la importancia relativa entre la inversión de la ORG y de la UN?
 - ¿Las inversiones actuales reflejan esta relación?
+
+### Arquetipos
+
+- **Monarquía de Negocio** → A senior business executive or a group of senior executives, sometimes including the CIO
+- **Monarquía de IT** → Individual or groups of IT executives.
+- **Feudal** → Business unit or process leaders making separate decisions based on the needs of their entities.
+- **Federal** → C-level executives and business representatives of all the operating groups—may include IT involvement (equivalent of the central government and the states working together).
+- **Compartida/Duopolio** → Two party decision making involving IT executives and one group of business leaders.
+- **Anarquía** → Each individual user or small group.
+- **No conocida**
+
+![Gobierno IT](images/gobierno-matriz.png)
+
+- E: Entrada
+- D: Decisión
+
+### Modelos operacionales
+
+![Gobierno IT - Modelos operacionales](images/gobierno-operacional.png)
+
+![Gobierno IT - Modelos operacionales](images/gobierno-operacional2.png)
+
+**Diversificación** → Baja estandarización, baja integración
+
+Se usa cuando se comparten clientes, productos o proveedores entre BU, mientras que los procesos cuentan con operaciones únicas, a veces demandando capacidades únicas. Este tipo de organizaciones por lo general no buscan bajo costo, se tienen BU autónomas que ejecutan sus procesos de la forma más eficiente posible y los directivos corporativos se centra en proveer el mejor servicio a los clientes.
+
+![Gobierno IT - Diversificación](images/gobierno-diversificacion.png)
+
+**Coordinación** → Baja estandarización, alta integración.
+
+Se usa cuando se comparten clientes, productos o proveedores entre BU, mientras que los procesos cuentan con operaciones únicas, a veces demandando capacidades únicas. Este tipo de organizaciones por lo general no buscan bajo costo, se tienen BU autónomas que ejecutan sus procesos de la forma más eficiente posible y los directivos corporativos se centra en proveer el mejor servicio a los clientes.
+
+![Gobierno IT - Coordinacion](images/gobierno-coordinacion.png)
+
+**Replicación** → Alta estandarización, baja integración.
+
+Les dan autonomía a las BU y usan procesos muy estandarizados. En este tipo de modelo **el éxito de las organizaciones depende** de la eficiencia y procesos repetitivos antes que relaciones compartidas de clientes.
+
+![Gobierno IT - Replicación](images/gobierno-replicacion.png)
+
+**Unificación** → alta estandarización, alta integración.
+
+Les dan autonomía a las BU y usan procesos muy estandarizados. En este tipo de modelo el éxito de las organizaciones dependen de la eficiencia y procesos repetitivos antes que relaciones compartidas de clientes.
+
+![Gobierno IT - Unificación](images/gobierno-unificacion.png)
+
+### Arquitectura - madurez
+
+- **Silos de negocio** → las empresas buscan maximizar las necesidades de las unidades de negocio individuales o las necesidades funcionales. Se centra el foco de las inversiones de IT para obtener soluciones a problemas y oportunidades locales del negocio.
+- **Tecnología estandarizada** → provee eficiencia de IT a través de tecnología estandarizada y la centralización de la gestión de la tecnología. El foco se desplaza de aplicaciones locales a infraestructura compartida.
+- **Núcleo optimizado** → provee los datos y procesos estandarizados a través de la empresa adecuados para el modelo operacional. La visión local de los datos es desplazada por una visión a nivel empresa. Los datos se vuelven accesibles a todos los procesos necesarios y se elimina la redundancia de las aplicaciones individuales. Las inversiones pasan de aplicaciones locales y infraestructura compartida a datos compartidos y sistemas empresariales.
+- **Modularización del negocio**  → facilita la agilidad estratégica a través de componentes adaptables o reusables. Estos módulos extienden la esencia del negocio construida en infraestructura en la etapa de núcleo optimizado. El rol de IT es proveer enlaces entre los distintos módulos de procesos de negocios.
+
+![Gobierno IT - Arquitectura Etapas](images/gobierno-etapas.png)
+
+![Gobierno IT - Arquitectura Madurez](images/gobierno-madurez.png)
+
 
 ## Activos
 
