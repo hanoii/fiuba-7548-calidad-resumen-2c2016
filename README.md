@@ -498,14 +498,14 @@ Los tests deben ser:
 - Desarrollar proyectos pilotos
 - Institucionalizar
 
-## 6.3 Integración continua
+### 6.3 Integración continua
 
 1. Commit
 2. IC detecta cambio, hace un build, ejecuta tests, toma métricas y elabora informes.
 3. IC envía mail al grupo de desarrollo
 4. IC continua monitoreando para cambios
 
-## 6.4 Revisiones de diseño y código
+### 6.4 Revisiones de diseño y código
 
 Revisiones por pares y/o especialistas. (Ayuda a detectar errores)
 
@@ -525,7 +525,7 @@ Revisiones por pares y/o especialistas. (Ayuda a detectar errores)
 3. Aumenta la efectividad de la validación y verificación
 4. Contribuye a la instalación del concepto de calidad
 
-## 6.5 Conclusiones
+### 6.5 Conclusiones
 
 La preocupación que expresamos en el comienzo del capítulo fue conocer, en cada momento de las iteraciones de la construcción de un sistema en desarrollo, el estado actualizado de los productos generados por el proyecto.
 
@@ -535,3 +535,392 @@ En definitiva, buenas prácticas orientadas a garantizar la calidad de los produ
 
 ## Capítulo 7 - Trabajo con Modelos de Desarrollo - CMMI
 
+Modelo de **capacidad** (6 niveles) y **madurez** (5 niveles)
+
+- **Capacidad** → Qué tan bien se desempeña la organización en un *área de proceso* individual
+- **Madurez** → Cómo se desempeña la organización en base a la madurez en un *conjunto de áreas de proceso*
+
+El modelo está compuesto por los siguientes componentes: **objetivos, prácticas y subprácticas**.
+
+- **Objetivos → componentes requeridos** → específicos, por área de proceso, y genéricos, relacionados a la institucionalización
+- **Prácticas → esperadas** Si se alcanzaron los objetivos, también específicas y genéricas
+- **Subprácticas → componentes informativos** → Interpretación e implementación de trabajo. Activos de trabajo y distintas disciplinas.
+
+**Áreas**
+
+- REQM - Requirements Management - Requerimientos
+- PP - Project Planning - Planificación
+- PMC -Project Monitoring and Control  - Monitoreo y control
+- SAM - Supplier Agreement Management - Proveedores
+- MA - Measurement and Analysis - Métricas
+- PPQA - Process and Product Quality Assurance - QA
+- CM - Configuration Management - Configuración
+
+**CL2. Proceso administrado**
+
+- GP 2.1 Establish an Organizational Policy 
+- GP 2.2 Plan the Process
+- GP 2.3 Provide Resources
+- GP 2.4 Assign Responsibility
+- GP 2.5 Train People
+- GP 2.6 Manage Configurations
+- GP 2.7 Identify and Involve Relevant Stakeholders
+- GP 2.8 Monitor and Control the Process
+- GP 2.9 Objectively Evaluate Adherence
+- GP 2.10 Review Status with Higher Level Management
+
+### Tablas
+
+![CMMi Madurez](images/cmmi-madurez.png)
+<br><br><br>
+![CMMi Capacidad](images/cmmi-capacidad.png)
+<br><br><br>
+![CMMi](images/cmmi.png)
+<br><br><br>
+![CMMi](images/cmmi-map-req.png)
+
+**Activos o productos de trabajo:**
+
+- **ERS** (Especificación de Requerimientos de Software)
+- **Procedimiento de especificación de requerimientos** (orientado a la construcción de la ERS)
+
+![CMMi](images/cmmi-map-calidad.png)
+
+**Activos o productos de trabajo:**
+
+- **Procedimientos**
+    + Planear aseguramiento de la calidad
+    + Crear ambiente de aseguramiento de la calidad
+    + Ejecutar tareas de aseguramiento de la calidad
+- **Activos**
+    + Plan de aseguramiento de la calidad.
+    + Estándares de programación.
+    + Matriz de seguimiento de no conformidades.
+- **Checklists de procesos**
+    + Fase Preventa
+    + Fase Concepción
+    + Fase Elaboración
+    + Fase Construcción
+    + Fase Transferencia
+    + Proceso de aseguramiento de la calidad (PPQA)
+    + Administración de la configuración
+    + Implementación de medidas y análisis
+    + Administración de proveedores
+    + Iteración
+- **Checklists de productos**
+    + ERS
+    + Plan de Proyecto
+    + Plan de QA (Aseguramiento de la calidad)
+    + Plan de CM (Administración de la configuración)
+    + Plan de MA (Medidas y análisis)
+    + Cronograma del proyecto
+    + Plan de Iteración
+
+### Estrategia
+
+- Relevamiento de la empresa, generar documento de relevamiento, exponer a todos los miembros el resultado (con fortalezas y debilidades)
+- Elaborar plan de mejora (incluye cronograma), asignar un impulsor, ejecutarlo en forma continua (dedicación parcial de los miembros) e informando en reuniones de exposición los resultados del trabajo
+- Armar un proyecto piloto
+- Tener un grupo impulsor responsable (EPG - Engineering process group)
+- Ponerlo en práctica en todos los otros proyectos
+
+**IDEAL con proyecto Piloto**
+
+- **Inicio** → comenzar con la aplicación de un SCAMPi Informal, adaptado a la empresa
+- **Diseño** → (Basado en FODA encontrados en el SCAMPi) Se escriben las políticas, los procesos y procedimientos y estándares y se definen métricas a utilizar. Se define el EPG (ver arriba).
+- **Piloto** → Se prueban los procedimientos en algunas áreas de proceso, adaptándolos
+- **Implementación** → Se extendiendo a todos los proyectos de la organización y se mide su efectividad
+
+### SCAMPi
+
+Proceso de evaluación.
+
+Conjunto estructurado de actividades como entrevistas, revisión de documentación, presentaciones y análisis de respuestas a cuestionarios.
+
+### 7.5 Conclusiones
+
+- Entender las necesidades de la organización y realizar un análisis de factibilidad del proyecto asociado a las mejoras utilizando CMMi.
+- Confirmar el compromiso de los dirigentes de la organización para con el proyecto en forma periódica.
+- Adaptar el modelo a la realidad de la organización.
+- Administrar los cambios como se trató en el capítulo tres.
+- Hacer planificaciones realistas basadas en el gap analisis.
+- Rescatar todo lo bueno instalado en la organización previamente al inicio de la mejora de procesos.
+- Seleccionar cuidadosamente a los mentores.
+- Disponer y asignar los recursos materiales y humanos necesarios.
+- Dar contenido a las subprácticas ya que estas representan las actividades diarias de los miembros de la organización para inducir a la adherencia al modelo.
+- Trabajar hasta alcanzar un grado de madurez que facilite la perdurabilidad en el tiempo de las mejoras logradas.
+
+## ITIL
+
+Buenas prácticas de adm. de tecnología informática
+
+**Objetivos**
+
+- Alinear los servicios de tecnología con la evolución del negocio
+- Optimizar la calidad de los servicios de tecnología prestados.
+- Reducir los costos
+
+**Fases**
+
+1. Servicio de Estrategia
+2. Servicio de Diseño
+3. Servicio de Transición
+4. Servicio de Operación
+5. Mejora continua
+
+### 1. Fase estrategia
+
+***Desde la perspectiva de un responsable de IT de una organización*** ¿Qué se debe tener en cuenta al momento de fijar una estrategia para la prestación de servicios?
+
+**Gobierno y toma de decisiones**
+
+- Creación de valor
+- Activos de los servicios
+- Tipos de proveedores
+- Capacidades y recursos
+- Estructura
+- Definición del mercado
+- Alternativas de desarrollo
+- Administración financiera
+- Administración del portafolio
+- Administración de la demanda
+- Valuación de servicios
+- Retorno de la inversión
+
+**Evaluación de la estrategia**
+
+- ¿Cuáles de nuestros servicios son los más distintivos?
+- ¿Cuáles de nuestros servicios son los más provechosos?
+- ¿Cuáles de nuestros clientes son los más satisfechos?
+- ¿Cuáles de nuestros clientes y canales de venta son los más provechosos?
+- ¿Cuáles de nuestras actividades en nuestra cadena de valor son las más diferentes y efectivas?
+
+- Fortalezas y debilidades
+- Competencias distintivas
+- Estrategia del negocio
+- Factores críticos de éxito
+- Amenazas y oportunidades
+
+**Desarrollo de capacidades estratégicas**
+
+¿Cómo convertir la administración de servicios en un activo estratégico?
+
+**Tipos de proveedores de servicios**
+
+- Internos
+- Compartidos
+- Externos
+
+**Servicios como activos de creación de valor**
+
+- Utilidad → percibida a través de los resultados vinculados al *propósito*
+- Garantía → derivada de la disponibilidad en cantidad y forma cuando es necesario su *uso*
+
+**Definir el mercado (market space)**
+
+Conjunto de servicios a ofrecer a partir de un conjunto de oportunidades surgidas de las necesidades insatisfechas de los usuarios.
+
+**Portafolio de servicios**
+
+El portafolio de servicios está compuesto por los *servicios activos, los servicios planeados para mejora, integración, extensión y desarrollo con sus respectivos presupuestos, contratos y compromisos asociados*; en cualquiera de las fases de su ciclo de vida.
+
+Administración del portafolio: Definir → Analizar → Aprobar → Entregar
+
+**Priorización en la administración del portafolio de servicios**
+
+![Portafolio de servicios](images/itil-portafolio.png)
+
+### 2. Fase de diseño
+
+**Aspectos clave**
+
+- Buen diseño de los servicios → Minimizar costo, mejorar calidad, consistencia, integración, escalamiento, eficiencia
+- Administración del catalogo de servicios → Bien documentados
+- Requerimientos → Escalabilidad a futuro, acuerdos
+- Modelos de diseño → Necesidades, capacidad existente, demanda nueva, madurez, cultura
+- Administración de la capacidad
+    + Balancear el costo y los recursos necesarios
+    + Balancear la capacidad y la demanda
+- Administración de la disponibilidad → Percepción de la calidad del servicio prestado, asegurarla, dar soporte, medidas de mejora
+- Administración del nivel de servicio (SLA) → Medidas, satisfacción del cliente, seguimiento
+- Evaluación de herramientas
+- Administración de la Continuidad del Negocio (ITSCM) → Planes de continuidad y recuperación, riesgos, mejoras
+- Administración de la Seguridad de la Información
+- Administración de Proveedores → Obtener valor agregado, acuerdos y contratos alineados, base de datos
+
+### 3. Fase transición
+
+**Aspectos clave**
+
+- Planificación → coordinar recursos, administrar riesgos, *Proveer un plan claro que permita alinear las actividades de usuarios y negocio con los de
+las tareas de transición de los servicios*
+- Activos y administración de la configuración → Software, hardware, documentos, herramientas, configuraciones, etc.
+- Administración de entregas e instalaciones → Disminuir costos de seguimientos de fallas, ambiente de confianza
+- Administración de cambios
+- Pruebas y validación → Ambientes de pruebas, cultura de pruebas, integración continua
+
+**Beneficios**
+
+- Permite mantener alineados los servicios provistos con los requerimientos del negocio y su operación
+- Los proveedores pueden garantizar la puesta en funcionamiento de nuevo servicios minimizando as operaciones y su impacto sobre el negocio
+- Seguridad en el proceso de puesta en funcionamiento a través de un proceso controlado
+
+### 4. Fase operación
+
+Fase de las **actividades y la infraestructura del día a día en la posición de los servicios** según el **SLA acordado.**
+
+**Procesos**
+
+- Administración de eventos → Todo lo que afecta a la infraestructura o provisión → Detección temprana
+- Cumplimiento de solicitudes → Solicitudes que implican bajo costo, menor tiempo de resolución, bajo riesgo.
+- Administración de incidentes → Evento que interrumpió o podría interrumpir un servicio → Aumentar la disponibilidad
+- Administración de problemas → Causa desconocida de uno o más incidentes
+- Administración de accesos → Permisos, seguridad de la información, confidencialidad, integridad → Minimizar abusos
+
+**Funciones**
+
+- Service Desk → **Función vital de la prestación de servicios** que se ocupa de **tomar todos los eventos que se generen por diferentes causas en el anormal funcionamiento de los servicios**, métricas
+- Administración de infraestructura → Expertos en la administración de tecnología
+- Administración de operaciones → tareas del día a día, para asegurar el SLA, infraestructura
+- Administración de aplicaciones → Conocer las aplicaciones del negocio a lo largo de todo el ciclo de vida
+- Monitoreo y control → Medir, informar, actuar. Realimentando la estrategia, el diseño y las pruebas. Reactivo y proactivo. Operacional y mejora continua.
+
+### 5. Mejora continua
+
+**Consiste en evaluar y mejorar la provisión de los servicios en la organización en los siguientes niveles:**
+
+- Como una disciplina
+- Con el alineamiento entre el portfolio de servicios de IT y las necesidades del negocio
+- Con madurez para proveer los servicios de IT según el ciclo de vida definido.
+
+**Propósito**
+
+Optimizar el alineamiento entre las necesidades cambiantes del negocio y los servicios provistos que soporten los procesos de negocio. Lograr efectividad y eficiencia a buenos costos.
+
+## Activos
+
+### Especificación de requerimientos
+
+- **Descripción general**
+    + **Objetivos**
+        * De esta etapa del proyecto
+        * Del proyecto
+    + **Documentos relacionados**
+    + **Destinatarios**
+    + **Participantes**
+    + **Contexto**
+        * Objetivos y estrategias del negocio
+        * Sistema actual
+        * Problemas actuales
+    + **Descripción**
+        * Descripción general del sistema a desarrollar
+        * Beneficios esperados
+    + **Alcance**
+        * Funciones incluidas
+        * Funciones excluidas
+        * Interfaz con otros sistemas y/o dispositivos de hardware
+- **Requerimientos**
+    + Funcionales
+    + Paquete i
+    + Requerimientos no funcionales
+    + Acuerdo
+- **Actores**
+    + Modelo de actores
+    + Descripción de actores
+- **Paquetes lógicos**
+    + Modelo de paquetes lógicos
+    + casos de uso preliminares de paquetes lógicos
+    + Lista de casos de uso preliminares
+    + Paquete i
+- **Modelo de casos de uso**
+    + Paquete i
+        * Diagrama de casos de uso
+        * Especificación de casos de uso
+        * Interfaz
+        * Modelo de dominio
+- **Relaciones**
+    + Matriz de realización de requerimientos - Casos de uso
+- **Alternativas de solución**
+    + Alternativa 1
+    + Alternativa ..
+- **Apéndice**
+    + Estimación te tamaño de software
+    + Análisis de riesgos
+    + Glosario
+    + Control de cambios
+
+### Modelo de especificación de casos de uso
+
+- **Diagrama de casos de uso**
+- **Especificación de caso de uso**
+- **ID_CASO: NOMBRE_CASO**
+    + **Objetivo**
+    + **Prototipo de interfaz**
+    + **Especificación del caso de uso**
+        * Actores
+        * Precondiciones
+        * Prioridad
+        * **Flujo básico**
+            - Nombre del flujo básico
+            - Primer paso del flujo básico
+            - Segundo paso del flujo básico
+            - La información mostrada en la interfaz es:
+                + Dato mostrado 1
+                + Dato mostrado 2
+                + ...
+            - Tercer paso del flujo básico
+            - El sistema responde mostrando una interfaz de entrada de los siguientes datos
+                + Dato al ingresar 1
+                + Datos al ingresar 2
+                + ...
+            - Cuarto paso del flujo básico
+            - Quinto paso del flujo básico
+            - El caso termina
+        * **Flujos alternativos**
+            - Nombre del flujo alternativo
+            - Primer paso del flujo alternativo
+            - Segundo paso
+            - ....
+        * **Postcondición**
+        * **Requerimientos no funcionales**
+        * **Diseño conceptual de interfaces**
+        * **Control de cambios**
+
+### Modelo de informe de avance
+
+- Datos del reporte
+- Grado de avance del proyecto
+    + Observaciones
+- Entregables
+- Facturación
+- Problemas surgidos
+    + Problemas anteriores
+    + Problemas nuevos
+- Seguimiento de riesgos
+    + Análisis de la evolución
+    + Acciones
+- Cambios de requerimientos acordados
+- Monitoreo de acuerdos
+- Monitoreo de involucramiento
+- Monitoreo de hitos
+- Monitores de administración de datos
+- Acuerdo de avance
+
+### Modelo de procedimiento
+
+- Descripción
+- Forma de trabajo?
+- Condiciones de entrada
+- Entradas
+- Roles
+- Activos
+- Resumen de tareas
+- Pasos del procedimiento
+    + Tarea
+    + Roles
+    + Entrada
+    + Salida
+- Salida
+- Condiciones de salida
+- Métricas
+- Verificación y validación
