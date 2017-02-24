@@ -556,18 +556,19 @@ El modelo está compuesto por los siguientes componentes: **objetivos, práctica
 - PPQA - Process and Product Quality Assurance - QA
 - CM - Configuration Management - Configuración
 
-**CL2. Proceso administrado**
+**Proceso administrado - Prácticas generales (CL2)**
 
-- GP 2.1 Establish an Organizational Policy 
-- GP 2.2 Plan the Process
-- GP 2.3 Provide Resources
-- GP 2.4 Assign Responsibility
-- GP 2.5 Train People
-- GP 2.6 Manage Configurations
-- GP 2.7 Identify and Involve Relevant Stakeholders
-- GP 2.8 Monitor and Control the Process
-- GP 2.9 Objectively Evaluate Adherence
-- GP 2.10 Review Status with Higher Level Management
+
+- Establecer una política organizacional → GP 2.1 Establish an Organizational Policy 
+- Planificar el proceseso → GP 2.2 Plan the Process
+- Asignar recursors → GP 2.3 Provide Resources
+- Asignar responabilidades → GP 2.4 Assign Responsibility
+- Capacitar personas → GP 2.5 Train People
+- Administrar la configuración → GP 2.6 Manage Configurations
+- Monitorear y controlar el proceso → GP 2.7 Identify and Involve Relevant Stakeholders
+- Identificar e involucrar a los stakeholders → GP 2.8 Monitor and Control the Process
+- Evaluar objetivamente la adherencia → GP 2.9 Objectively Evaluate Adherence
+- Revisar el estado con la alta genrencia → GP 2.10 Review Status with Higher Level Managements
 
 ### Tablas
 
@@ -851,6 +852,10 @@ Optimizar el alineamiento entre las necesidades cambiantes del negocio y los ser
 - E: Entrada
 - D: Decisión
 
+**Links**
+
+- [IT Governance on One Page](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=664612)
+
 ### Framework de diseño de Gobierno
 
 ![Gobierno IT - Framework](images/gobierno-framework.png)
@@ -902,6 +907,10 @@ Las organizaciones que usan este modelo no encuentran mucho beneficio en BU aut�
 ![Gobierno IT - Arquitectura Etapas](images/gobierno-etapas.png)
 
 ![Gobierno IT - Arquitectura Madurez](images/gobierno-madurez.png)
+
+**Links**
+
+- [@SchmitzOscar 4 Etapas de la Arquitectura Empresarial](https://es.slideshare.net/cxocommunity/cxo-4-etapas-arquitectura-empresarial)
 
 ## Cadena crítica
 
