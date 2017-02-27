@@ -419,7 +419,7 @@ A efectos de lograr una buena gestión de los proyectos de desarrollo de softwar
 - Realizar el seguimiento resolviendo los problemas que se generen y escalando los que excedan nuestras responsabilidades
 - Detenerse ante los problemas y no continuar hasta resolverlos
 - Explicar cada decisión y comunicarla a todos los involucrados
-- Tomar métricas que nos provean indicadores de la evolución de los proyectos de alineados a los objetivos del negocio y a los procesos de nidos para la organización
+- Tomar métricas que nos provean indicadores de la evolución de los proyectos de alineados a los objetivos del negocio y a los procesos definidos para la organización
 
 ## Capítulo 6 - Trabajo con la Implementación. Diseño, codificación y pruebas
 
